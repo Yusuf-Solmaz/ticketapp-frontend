@@ -1,0 +1,159 @@
+ul {
+  display: inline-block;
+  width: calc(100% - 210px);
+  text-align: right;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+li::before {
+  content: "\2022";
+  color: blue;
+}
+
+li:hover::before {
+  color: burlywood;
+}
+
+.buy {
+  background-color: coral;
+  color: white;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+.buy::before {
+  content: none;
+}
+
+.buy:hover {
+  color: white;
+}
+
+.main-nav_item__logo {
+  background-color: rgb(42, 235, 90);
+  color: white;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+.main-nav_item__logo::before {
+  content: none;
+}
+.main-nav_item__logo:hover {
+  color: white;
+  background-color: coral;
+}
+
+nav {
+  background-color: coral;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+.first {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+.navLink:hover {
+  color: white;
+}
+
+* {
+  margin: 0;
+}
+*::selection {
+  background-color: rgb(34, 94, 223);
+}
+section {
+  color: azure;
+  background-image: url("ulasim.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  margin: 0;
+}
+.section-h1 {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -10%);
+}
+footer {
+  text-align: center;
+}
+.col {
+  display: inline-block;
+  width: 30%;
+  padding-left: 55px;
+  padding-top: 50px;
+}
+
+.row {
+  padding-top: 32px;
+}
+h2 {
+  padding-bottom: 8px;
+}
+
+html {
+  height: 2000px;
+}
+
+.arrow-up {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  text-align: center;
+}
+.arrow {
+  display: inline-block;
+  margin-top: 50%;
+  transform: translate(0, -50%);
+}
+
+.tableT {
+  border: none;
+}
+
+table {
+  padding-top: 50px;
+  margin-left: 300px;
+  border-spacing: 15px;
+  width: 70%;
+}
+
+.tableF {
+  text-align: center;
+}
+
+.tableS {
+  border: 1px solid coral;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+th {
+  text-align: left;
+}
