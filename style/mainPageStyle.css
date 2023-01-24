@@ -33,7 +33,7 @@ li:hover::before {
 }
 
 .main-nav_item__logo {
-  background-color: rgb(42, 235, 90);
+  background-color: rgb(219, 202, 43);
   color: white;
   padding: 4px 16px;
   border-radius: 8px;
@@ -136,7 +136,7 @@ html {
 
 table {
   padding-top: 50px;
-  margin-left: 300px;
+  margin-left: 550px;
   border-spacing: 15px;
   width: 70%;
 }
