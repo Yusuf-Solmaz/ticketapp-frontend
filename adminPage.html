@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="style/adminStyle.css" />
+    <link rel="stylesheet" href="style/mainPageStyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="first" href="mainpage.html" style="color: aliceblue"
+          >Ticket App</a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="section-h1">Admin</h1>
+      <p class="section-p1">* Sadece güncellemek istediğinizde "Id" değerini giriniz.</p>
+    </main>
+    
+
+    <div class="clearfix">
+      <form>
+        <h2>Kullanıcı Ekle</h2>
+
+        <label for="id">Id:</label>
+        <input type="number" id="id" name="id" required />
+
+        <label for="name">Ad:</label>
+        <input type="text" id="firstname" name="firstname" required />
+
+        <label for="lastName">Soy ad:</label>
+        <input type="text" id="lastName" name="lastName" required />
+
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="eMail">E-Mail:</label>
+        <input type="text" id="eMail" name="eMail" required />
+
+        <label for="phoneNumber">Telafon Numarası</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required />
+
+        <label for="role">Rol</label>
+        <input type="text" id="role" name="role" required />
+
+        <button type="submit" id="add-user-btn">Kullanıcı Ekle</button>
+        <button type="submit" id="update-user-btn">Kullanıcı Güncelle</button>
+        <div class="error" id="user-error"></div>
+      </form>
+      <form>
+        <h2>Araç Ekle</h2>
+        <label for="numberOfEmptySeats">Boş Koltuk Sayısı</label>
+        <input type="number" id="numberOfEmptySeats" name="numberOfEmptySeats" required />
+
+        <label for="plateNumber">Plaka</label>
+        <input type="text" id="plateNumber" name="plateNumber" required />
+
+        <label for="plateNumber">Plaka</label>
+        <input type="text" id="plateNumber" name="plateNumber" required />
+
+        <label for="brand">Marka</label>
+        <input type="text" id="brand" name="brand" required />
+
+        <label for="rotaId">Rota Id</label>
+        <input type="number" id="rotaId" name="rotaId" required />
+            
+        <button type="submit" id="add-route-btn">Araç Ekle</button>
+        <button type="submit" id="update-route-btn">Araç Güncelle</button>
+        <div class="error"></div>
+      </form>
+      <form>
+        <h2>Rota Ekle</h2>
+        <label for="id">Id</label>
+        <input type="number" id="id" name="id" required />
+
+        <label for="departure">Kalkış</label>
+        <input type="text" id="departure" name="departure" required />
+
+        <label for="arrival">Varış</label>
+        <input type="text" id="arrival" name="arrival" required />
+
+        <button type="submit" id="add-route-btn">Rota Ekle</button>
+        <button type="submit" id="update-route-btn">Rota Güncelle</button>
+
+        <div class="error"></div>
+      </form>
+    </div>
+    <div class="clearfix">
+     
+    </form>
+    <form>
+      <h2>Kullanıcı Sil</h2>
+      <label for="id">Id</label>
+      <input type="number" id="id" name="id" required />
+
+      <button type="submit" id="delete-user-btn">Kullanıcı Sil</button>
+      <div class="error"></div>
+    </form>
+    <form>
+      <h2>Araç Sil</h2>
+      <label for="id">Id</label>
+      <input type="number" id="id" name="id" required />
+
+      <button type="submit" id="delete-vehicle-btn">Araç Sil</button>
+      <div class="error"></div></form>
+      <form>
+        <h2>Rota Sil</h2>
+        <label for="id">Id</label>
+        <input type="number" id="id" name="id" required />
+  
+        <button type="submit" id="delete-route-btn">Rota Sil</button>
+        <div class="error"></div></form>
+      
+
+    </div>
+  </body>
+</html>
