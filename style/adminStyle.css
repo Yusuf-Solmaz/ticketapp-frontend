@@ -64,3 +64,9 @@ button {
   clear: both;
   display: table;
 }
+
+.filter {
+  width: 500px;
+  height: auto;
+  margin-left: 700px;
+}

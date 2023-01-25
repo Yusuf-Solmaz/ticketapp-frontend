@@ -1,0 +1,14 @@
+.cancel {
+  background-color: rgb(139, 40, 40);
+  color: white;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+.cancel::before {
+  content: none;
+}
+
+.cancel:hover {
+  color: white;
+}
