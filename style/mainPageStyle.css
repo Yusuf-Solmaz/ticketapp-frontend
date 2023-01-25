@@ -121,7 +121,6 @@ html {
   right: 0;
   width: 50px;
   height: 50px;
-  background-color: orange;
   text-align: center;
 }
 .arrow {
@@ -136,7 +135,7 @@ html {
 
 table {
   padding-top: 50px;
-  margin-left: 550px;
+  margin-left: 250px;
   border-spacing: 15px;
   width: 70%;
 }
